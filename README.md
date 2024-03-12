@@ -1,2 +1,7 @@
-# lista-kotlin-ddm
-Lista de exercícios Kotlin para estudo inicial.
+# Lista Kotlin - Introdução Básica
+
+- Aluno: Rafael Felipe Xavier da Silva
+- Curso: Sistemas de Informação
+- Matéria: Desenvolvimento para Dispositivos Móveis (Turma 5º U)
+
+Respositório da atividade resolvida.
