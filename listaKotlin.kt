@@ -5,7 +5,7 @@
 fun main() {
     println("\n// 1")
     /*
-		Crie uma função que receba um número inteiro e retorne verdadeiro se o número for par e falso caso contrário. 
+        Crie uma função que receba um número inteiro e retorne verdadeiro se o número for par e falso caso contrário. 
     */
    
     println("${indPar(2)}")
@@ -13,14 +13,14 @@ fun main() {
     
     println("\n// 2")
     /*
-		Crie uma função que receba um array de inteiros e retorne o maior número. 
+        Crie uma função que receba um array de inteiros e retorne o maior número. 
     */
     
     maiorNumeroArrayInteiros(arrayOf(10, 15, 6))
     
     println("\n// 3")
     /*
-		Crie uma classe chamada "Pessoa" com os atributos "nome" e "idade". Em seguida, crie uma lista de objetos "Pessoa" e ordene a lista em ordem alfabética pelo atributo "nome". 
+        Crie uma classe chamada "Pessoa" com os atributos "nome" e "idade". Em seguida, crie uma lista de objetos "Pessoa" e ordene a lista em ordem alfabética pelo atributo "nome". 
     */
     
     var listaPessoas = listOf(Pessoa("Rafael", 22), Pessoa("Amanda", 23));
@@ -29,7 +29,7 @@ fun main() {
     
     println("\n// 4")
     /*
-		Crie uma função que receba uma string e retorne verdadeiro se a string for um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente). 
+        Crie uma função que receba uma string e retorne verdadeiro se a string for um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente). 
     */
     
     println("${indPalindromo("batata")}")
@@ -37,7 +37,7 @@ fun main() {
     
     println("\n// 5")
     /*
-		Implemente uma função lambda que retorne o maior valor entre dois números.
+        Implemente uma função lambda que retorne o maior valor entre dois números.
     */
     
     val maiorNumero: (Int, Int) -> Int = { a, b -> if (a >= b) a else b }
@@ -45,7 +45,7 @@ fun main() {
     
     println("\n// 6")
     /*
-		Crie uma classe "ContaBancaria" com os atributos "saldo" e "limite".
+        Crie uma classe "ContaBancaria" com os atributos "saldo" e "limite".
         Adicione um método chamado "saque" que recebe um valor como parâmetro e subtrai do saldo da conta.
         Se o valor do saque for maior que o saldo da conta, o método deve lançar uma exceção com a mensagem "Saldo insuficiente". 
     */
@@ -55,7 +55,7 @@ fun main() {
     
     println("\n// 7")
     /*
-		Crie uma função que receba uma lista de strings e retorne a string mais longa da lista. 
+        Crie uma função que receba uma lista de strings e retorne a string mais longa da lista. 
     */
     
     val lista = listOf("Abacaxi", "Cachorro", "Avião", "Livro", "Maçaneta")
@@ -63,7 +63,7 @@ fun main() {
     
     println("\n// 8")
     /*
-		Crie uma classe "Funcionario" com os atributos "nome", "idade" e "salario". Crie uma função que receba uma lista de funcionários e retorne o funcionário com o maior salário. 
+        Crie uma classe "Funcionario" com os atributos "nome", "idade" e "salario". Crie uma função que receba uma lista de funcionários e retorne o funcionário com o maior salário. 
     */
     
     val listaFuncionarios = listOf(Funcionario("Rafael", 30, 3000.0), Funcionario("Guilherme", 25, 3500.0), Funcionario("Lucas", 35, 2800.0))
@@ -71,7 +71,7 @@ fun main() {
      
     println("\n// 9")
     /*
-		Crie uma função que receba uma lista de números inteiros e retorne uma lista com os números em ordem crescente, sem usar o método de ordenação da linguagem.
+        Crie uma função que receba uma lista de números inteiros e retorne uma lista com os números em ordem crescente, sem usar o método de ordenação da linguagem.
     */
     
     val listaDesordenada = listOf(5, 2, 8, 1, 9, 3)
@@ -79,7 +79,7 @@ fun main() {
 	
     println("\n// 10")
     /*
-		Crie uma classe "Triangulo" com os atributos "base" e "altura". Adicione um método chamado "area" que calcula e retorna a área do triângulo.
+        Crie uma classe "Triangulo" com os atributos "base" e "altura". Adicione um método chamado "area" que calcula e retorna a área do triângulo.
     */
     
     val triangulo = Triangulo(5.0, 7.0)
@@ -87,7 +87,7 @@ fun main() {
     
     println("\n// 11")
     /*
-		Crie uma função que receba uma lista de strings e retorne uma lista com todas as strings que começam com a letra "A", em ordem alfabética.
+        Crie uma função que receba uma lista de strings e retorne uma lista com todas as strings que começam com a letra "A", em ordem alfabética.
     */
     
     val listaPalavras = listOf("Abacaxi", "Amigo", "Arvore", "Avião", "Batata", "Carro")
@@ -95,7 +95,7 @@ fun main() {
     
     println("\n// 12")
     /*
-		Utilize um mapa para representar um dicionário de palavras e suas traduções.
+        Utilize um mapa para representar um dicionário de palavras e suas traduções.
     */
     
     val dicionario = mapOf(
@@ -113,7 +113,7 @@ fun main() {
     
     println("\n// 13")
     /*
-		Crie uma função de ordem superior chamada operacaoMatematica que aceita dois números e uma função lambda.
+        Crie uma função de ordem superior chamada operacaoMatematica que aceita dois números e uma função lambda.
         A função operacaoMatematica deve aplicar a função lambda aos dois números e retornar o resultado.
         Em seguida, crie algumas funções lambda para realizar operações matemáticas, como soma, subtração, multiplicação e divisão.
         Use a função de ordem superior para realizar essas operações com diferentes pares de números.
@@ -133,7 +133,7 @@ fun main() {
     
     println("\n// 14")
     /*
-		Crie uma função de extensão chamada isPalindromo para a classe String que verifica se a string é um palíndromo.
+        Crie uma função de extensão chamada isPalindromo para a classe String que verifica se a string é um palíndromo.
         A função deve ignorar espaços em branco e ser case-insensitive (não distinguir maiúsculas de minúsculas). 
         Em seguida, use essa função para verificar se algumas palavras são palíndromos.
     */
@@ -149,10 +149,10 @@ fun main() {
     
     println("\n// 15")
     /*
-		Vamos criar um programa que utilize funções de alta ordem para operar em um array de números inteiros.
+        Vamos criar um programa que utilize funções de alta ordem para operar em um array de números inteiros.
         Você deve criar funções de alta ordem para realizar as seguintes operações: filtrarPares: Uma função que filtra e retorna apenas os 
-		números pares do array; dobrarValores: Uma função que dobra o valor de cada número no array; somarValores: Uma função que calcula a 
-		soma de todos os valores no array. Em seguida, crie um array de números inteiros e utilize as funções de alta ordem para realizar essas operações.
+        números pares do array; dobrarValores: Uma função que dobra o valor de cada número no array; somarValores: Uma função que calcula a 
+        soma de todos os valores no array. Em seguida, crie um array de números inteiros e utilize as funções de alta ordem para realizar essas operações.
     */
     
     val numeros = intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
